@@ -1,0 +1,5 @@
+Controller\JogoNumeroSecretoController.class
+dto\ChuteResponse.class
+Application\JogoNumeroSecretoApplication.class
+dto\ChuteRequest.class
+Service\JogoNumeroSecretoService.class

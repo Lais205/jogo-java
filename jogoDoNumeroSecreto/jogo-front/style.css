@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Baloo 2', sans-serif;
+}
+
+.container {
+    background: url(assets/img-fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 72px;
+	padding-bottom: 3rem;
+	color: white;
+}
+
+.paragraf {
+	font-size: 32px;
+	font-weight: 400;
+	color: white;
+}
+
+.input {
+	width: 400px;
+	height: 60px;
+	border-radius: 16px;
+	background-color: #171717;
+	border: 2px solid #D90718;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.button-tag {
+	border-radius: 16px;
+	color: white;
+	background: #D90718;
+	padding: 16px 24px;
+	font-size: 24px;
+	font-weight: 400;
+	border: none;
+	margin-top: 2rem;
+	cursor: pointer;
+	box-shadow: 0px 4px 4px 2px #95242D;
+}
+
+.container-buttons {
+	display: flex;
+	gap: 25px;
+}
+
+button:disabled {
+	cursor: not-allowed;
+	background-color: gray;
+	box-shadow: 0px 4px 4px 2px #62666C;
+}
